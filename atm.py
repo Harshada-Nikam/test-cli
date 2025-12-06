@@ -51,8 +51,7 @@ def atm_menu():
                 atm.withdraw(amount)
             except ValueError:
                 print("Invalid amount. Please enter a valid number.")
-        elif choice == 4:
-            print("Thank you for using the ATM. Goodbye!")
+        elif choice == 3:
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 4.")
